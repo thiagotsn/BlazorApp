@@ -1,0 +1,53 @@
+﻿<Properties StartupConfiguration="{6F29E9B5-D91F-42AD-916B-E89EAF0DF9D9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlazorApp/Areas/Identity/Pages/Account/Login.cshtml">
+    <Files>
+      <File FileName="BlazorApp/Pages/Shared/_LoginPartial.cshtml" Line="10" Column="70" />
+      <File FileName="BlazorApp/Areas/Identity/Pages/Shared/_LoginPartial.cshtml" />
+      <File FileName="BlazorApp/Startup.cs" Line="37" Column="113" />
+      <File FileName="BlazorApp/Program.cs" />
+      <File FileName="BlazorApp/Data/WeatherForecastService.cs" />
+      <File FileName="BlazorApp/Data/ApplicationDbContext.cs" />
+      <File FileName="BlazorApp/Areas/Identity/Pages/_ViewImports.cshtml" Line="3" Column="38" />
+      <File FileName="BlazorApp/Pages/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="BlazorApp/_Imports.razor" Line="11" Column="1" />
+      <File FileName="BlazorApp/Areas/Identity/Pages/Account/Login.cshtml" Line="3" Column="1" />
+      <File FileName="BlazorApp/Areas/Identity/Pages/Account/_ViewImports.cshtml" Line="1" Column="46" />
+      <File FileName="BlazorApp/Areas/Identity/Pages/Account/Login.cshtml.cs" Line="1" Column="1" />
+      <File FileName="BlazorApp/Pages/FetchData.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorApp" expanded="True">
+            <Node name="BlazorApp" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True">
+                  <Node name="Pages" expanded="True">
+                    <Node name="Account" expanded="True">
+                      <Node name="Login.cshtml" expanded="True" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BlazorApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

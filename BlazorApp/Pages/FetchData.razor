@@ -1,0 +1,33 @@
+﻿@page "/fetchdata"
+
+@using BlazorApp.Data
+@inject WeatherForecastService ForecastService
+@attribute [Authorize]
+
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+@if (forecasts == null)
+{
+    <div>Loading...</div>
+}
+else
+{
+<DxDataGrid Data="@forecasts">
+    <DxDataGridDateEditColumn Field=@nameof(WeatherForecast.Date) />
+    <DxDataGridColumn Field=@nameof(WeatherForecast.TemperatureC) Caption="Temp. (C)" />
+    <DxDataGridSpinEditColumn Field=@nameof(WeatherForecast.TemperatureF) Caption="Temp. (F)" />
+    <DxDataGridColumn Field=@nameof(WeatherForecast.Summary) Caption="Summary" />
+</DxDataGrid>
+}
+
+@code {
+    private WeatherForecast[] forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+    }
+}
